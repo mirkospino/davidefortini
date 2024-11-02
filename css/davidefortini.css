@@ -1,0 +1,139 @@
+/* Davide Fortini theme by Mirko Spino */
+
+
+/* BASIC */
+
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Open Sans', cursive;
+    color: #666;
+}
+
+* {
+    outline: none;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Special Elite', cursive;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/* NAV */
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #666;
+}.navbar-collapse {
+ min-height: 70px;
+}
+
+.icon-bar {
+    background-color: #666;
+}
+
+.navbar-brand {
+    font-family: 'Special Elite', cursive;
+}
+.navbar-brand .btn {
+ font-weight: bold;
+ margin-right: 5px;
+ background-color: #000;
+ color: #fff;
+}
+.navbar-brand .btn:hover {
+ color: #fff;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+
+/* CV */
+
+.cv-pdf i {
+    margin: 0 10px;
+}
+
+.cv-pdf a:hover {
+    color: #000;
+}
+
+
+/* MASONRY */
+
+.masonry-item {
+    width: 100%;
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .masonry-item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .masonry-item {
+        width: 33%;
+    }
+}
+
+.masonry-item iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ANCHOR */
+
+.row.title {
+    padding-top: 80px;
+}
+
+
+/* FORM */
+
+.form-left input, .form-wrapper textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    padding: 5px;
+}
+
+.form-wrapper textarea {
+    min-height: 300px;
+}
+
+.g-recaptcha,
+.form-right .btn {
+    clear: both;
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
